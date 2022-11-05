@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Nav = styled.nav`
-  background-color: $color-primary;
+  background-color: ${({ theme }) => theme.colors.white.one};
   grid-column: center-start / center-end;
 
   display: grid;
@@ -41,6 +41,7 @@ export const List = styled.li`
   list-style: none;
   color: ${({ theme }) => theme.colors.grey.one};
   transition: all 0.2s;
+  font-size: ${({ theme }) => theme.fontSizes.paragraphs.p2 };
 
   :hover {
     color: ${({ theme }) => theme.colors.black.one};

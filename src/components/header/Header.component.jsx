@@ -30,7 +30,7 @@ function Header() {
             <List>Blog</List>
           </Link>
           <Link to="#">
-            <List>About</List>
+            <List>About Us</List>
           </Link>
         </ListGrid>
         <AuthGrid>
