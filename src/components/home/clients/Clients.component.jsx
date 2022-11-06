@@ -8,8 +8,8 @@ import Grammarly from "../../../images/grammarly.png";
 
 function Clients() {
   return (
-    <ClientsGrid class="clients">
-      <ClientsText class="clients__text heading-2-1">
+    <ClientsGrid>
+      <ClientsText>
         More than 25,000 teams use Collabs
       </ClientsText>
       <ClientsLogos>
