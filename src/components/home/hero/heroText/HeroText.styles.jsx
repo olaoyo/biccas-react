@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeroTextGrid = styled.div`
-  grid-column: center-start / col-end 5;
+  /* grid-column: center-start / col-end 5; */
+  grid-column: center-start 1 / col-end 5;
   background-color: ${({ theme }) => theme.colors.white.one};
   display: grid;
   grid-template-rows: repeat(4, max-content);
