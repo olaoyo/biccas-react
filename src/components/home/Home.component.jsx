@@ -4,6 +4,7 @@ import Partners from "./partners/Partners.component";
 import Features from "./features/Features.component";
 import Benefits from "./benefits/Benefits.component";
 import Plans from "./plans/Plans.component";
+import Testimonails from "./testimonials/Testimonails.component";
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <Features />
       <Benefits />
       <Plans />
+      <Testimonails />
     </>
   )
 }
