@@ -128,7 +128,7 @@ function Benefits() {
           </BenefitsExpertChat>
         </BenefitsImgExpert>
 
-        <BenefitsIncome class="benefit__img-income">
+        <BenefitsIncome>
           <BenefitsIncomeText>
             <BenefitsIncomeTextParagraph3>
               Total Income
@@ -140,8 +140,8 @@ function Benefits() {
           </BenefitsIncomeChart>
         </BenefitsIncome>
 
-        <BenefitsIncomePic class="benefit__img-pic">
-          <BenefitsIncomePicIcon class="benefit__img-pic--icon">
+        <BenefitsIncomePic>
+          <BenefitsIncomePicIcon>
             <ion-icon name="image"></ion-icon>
           </BenefitsIncomePicIcon>
         </BenefitsIncomePic>

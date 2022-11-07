@@ -44,7 +44,7 @@ function Features() {
       </Feature>
 
       <Feature>
-        <FeatureButton class="feature__button paragraph-1">Get Started</FeatureButton>
+        <FeatureButton>Get Started</FeatureButton>
         <FeatureImg
           src={DataAnalytics}
           alt="Data Analytics"

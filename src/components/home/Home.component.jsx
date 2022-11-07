@@ -3,6 +3,7 @@ import Clients from "./clients/Clients.component";
 import Partners from "./partners/Partners.component";
 import Features from "./features/Features.component";
 import Benefits from "./benefits/Benefits.component";
+import Plans from "./plans/Plans.component";
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <Partners />
       <Features />
       <Benefits />
+      <Plans />
     </>
   )
 }
