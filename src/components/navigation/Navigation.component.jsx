@@ -5,6 +5,7 @@ import Layout from "../layout/Layout.component";
 
 import Header from "../header/Header.component";
 import Footer from "../footer/Footer.component";
+import Copyright from "../copyright/Copyright.component";
 
 function Navigation() {
   return (
@@ -13,6 +14,7 @@ function Navigation() {
       <Layout>
         <Header />
         <Footer />
+        <Copyright />
       </Layout>
     </ThemeProvider>
   );
