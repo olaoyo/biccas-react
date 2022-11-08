@@ -4,6 +4,7 @@ import { theme } from "../../styles/themes/themes.styles";
 import Layout from "../layout/Layout.component";
 
 import Header from "../header/Header.component";
+import Footer from "../footer/Footer.component";
 
 function Navigation() {
   return (
@@ -11,6 +12,7 @@ function Navigation() {
       <GlobalStyles />
       <Layout>
         <Header />
+        <Footer />
       </Layout>
     </ThemeProvider>
   );
